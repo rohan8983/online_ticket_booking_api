@@ -1,0 +1,42 @@
+{
+  "name": "online_ticket_booking_api",
+  "version": "1.0.0",
+  "description": "sample online ticket booking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules",
+    "start": "nodemon  App/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan8983/online_ticket_booking_api.git"
+  },
+  "author": "rohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohan8983/online_ticket_booking_api/issues"
+  },
+  "homepage": "https://github.com/rohan8983/online_ticket_booking_api#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.15.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.15",
+    "nodemailer": "^4.7.0",
+    "nodemon": "^1.18.7",
+    "rimraf": "^2.6.2",
+    "winston": "2.4.0",
+    "winston-mongodb": "^4.0.3"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

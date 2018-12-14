@@ -1,0 +1,12 @@
+#node_modules
+/node_modules
+
+#configuration file
+config.js
+
+#babel complied files
+/dist
+
+#log files
+logfile.log
+uncaughtExceptions.log
